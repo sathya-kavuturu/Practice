@@ -28,5 +28,7 @@ function backwardOddNumbers(num){
     }
     return myArray;
 }
-
 console.log(backwardOddNumbers(100));
+
+
+
