@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(128, 178, 217, 0.8);
+    /* background: url("https://m.media-amazon.com/images/M/MV5BMTk5ODYyMTcwN15BMl5BanBnXkFtZTgwMDIyNDI0NjM@._V1_.jpg");
+    background-repeat: no-repeat; */
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+h1{
+    color: steelblue;
+}
+
+a:link{
+    color:purple;
+}
+
+a:hover{
+    color:red;
+}
+
+a:visited{
+    color:pink;
+}
+
+li:first-child{
+    color:pink;
+}
+
+
+
+.box{ 
+    background: linear-gradient(0deg, #145d96, #d9b834, #1ed9cf);
+    width:500px;
+    height:300px;
+    float: right;
+    border: 3px dashed purple;
+    padding:25px;
+    margin : 10px;
+}
+.box1{
+    background: radial-gradient(circle, #8f061f 40%, #4fe051 60%, #e6bd19 40%);
+    width:500px;
+    height:300px;
+} 
+
+ul{
+    color:blue;
+}
+
+ul[id=fruits1]{
+    color:red;
+}
+ 
+#play{
+    font-size: 15px;
+    width: 100px;
+    background:#e6bd19;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#image{
+    background: url("https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:300px;
+    display:  inline-block;;
+}
+
+#color{
+    color: pink;
+}
+#table, tr, td{
+    border: 3px blue;
+}
+ #table{
+    border: 5px double #bf0a1f;
+    border-radius: 15px;
+    padding:10px;
+    margin-left:10px;
+    
+    
+}
+
+#table-head{
+    border: 2px solid green;
+
+} 
+
+.container{
+    background-color: rgb(158, 152, 152);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.item{
+    margin:50px;
+    border: 1px solid green;
+    padding:20px;
+    background: green;
+
+}
