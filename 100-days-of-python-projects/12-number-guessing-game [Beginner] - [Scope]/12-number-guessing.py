@@ -15,7 +15,7 @@ elif difficulty=='hard':
 print(f"You have {attempts} attempts remaining to guess the number.")
 is_game_over = False
 while not is_game_over:
-    answer = random.randint(1, 101)
+    answer = random.randint(1, 100)
     guessed = int(input("Make a Guess: "))
     attempts -=1
     if guessed ==  answer:
