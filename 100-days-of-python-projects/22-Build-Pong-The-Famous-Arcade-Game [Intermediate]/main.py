@@ -46,7 +46,7 @@ while game_is_on:
         scoreboard.r_point()
 
     if scoreboard.l_score == 10:
-        scoreboard.declare_win("Left Paddle")
+        scoreboard.declare_win("Left  Paddle")
         game_is_on = False
     elif scoreboard.r_score == 10:
         scoreboard.declare_win("Right Paddle")
