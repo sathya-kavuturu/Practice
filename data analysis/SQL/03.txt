@@ -1,0 +1,60 @@
+CREATE TABLE employee2(
+id int PRIMARY KEY,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) DEFAULT 'banglore'
+);
+
+CREATE TABLE employee2(
+id int,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) DEFAULT 'banglore',
+PRIMARY KEY(id, name)
+);
+
+CREATE TABLE employee2(
+id int AUTO_INCREMENT,
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) DEFAULT 'banglore',
+PRIMARY KEY(id)
+);
+
+CREATE TABLE employee3(
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) DEFAULT 'banglore',
+PRIMARY KEY(firstname, lastname)
+);
+
+
+INSERT INTO employee3 VALUES('santhosh', 'sdfsdf', 'kumar', 23, 50000, 'hyderabad');
+
+INSERT INTO employee3 VALUES('santhosh', 'sdfsdf', 'kuma', 23, 50000, 'hyderabad');
+
+select * from employee3;
+
+
+CREATE TABLE employee4(
+id int UNIQUE KEY,
+firstname varchar(20) NOT NULL,
+lastname varchar(20) NOT NULL,
+age int NOT NULL
+);
+
+INSERT INTO employee4 VALUES(1, 'santhosh',  'kuma', 23);
+INSERT INTO employee4 VALUES(null, 'santhosh',  'kuma', 23);
+INSERT INTO employee4 VALUES(null, 'santhosh',  'kuma', 23);

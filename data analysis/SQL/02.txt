@@ -1,0 +1,40 @@
+CRUD Operations
+
+show databases;
+
+CREATE DATABASE company;
+
+use company;
+
+CREATE TABLE employee(
+firstname varchar(20),
+middlename varchar(20),
+lastname varchar(20),
+age int,
+salary int,
+location varchar(20)
+);
+
+show tables;
+
+INSERT INTO employee VALUES('sathya', 'swaroop', 'kavuturu', 23, 50000, 'benagluru');
+
+SELECT * FROM employee;
+
+INSERT INTO employee(firstname, lastname, age, salary, location) VALUES('santhosh',  'kumar', 23, 50000, 'benagluru');
+
+INSERT INTO employee VALUES('sunil', 'kumar', "Yadav's",  23, 50000, 'benagluru'), ('Sai', 'Rakesh\'s', 'kumar', 25, 40000, 'hyderabad' );
+
+select * from employee;
+
+CREATE TABLE employee1(
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) DEFAULT 'banglore'
+);
+
+INSERT INTO employee1(firstname, lastname, age, salary, location) VALUES('sumith', 'kumar',  23, 50400, null);
+
