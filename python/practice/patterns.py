@@ -177,19 +177,7 @@ pattern9(5)
 #       * * * *
 #      * * * * *
 # 
-def pattern10(n):
-    print('10.')
-    for row in range(n):
-        spaces = n-row
-        for s in range(spaces):
-            print(" ", end="")
-        for col in range(row+1):
-            print('*', end="")
-        for col in range(row):
-            print('*', end='')
-        print()
 
-pattern10(5)
 
 
 # 11.  * * * * *
