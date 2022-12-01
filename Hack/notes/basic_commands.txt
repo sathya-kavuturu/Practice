@@ -1,0 +1,27 @@
+cd ..
+clear 
+whoami
+chmod +x
+cat
+grep
+cp
+mkdir
+touch
+rm
+mv(for moving and renaming files)|
+man
+history
+locate
+
+---------------------------------------------------------------
+
+shutdown
+shutdown -c
+reboot
+ps
+top
+uname -a
+uname -r
+ifconfig
+netstat
+

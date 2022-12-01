@@ -1,0 +1,13 @@
+TCP/IP model
+Ip addresses
+MAC address
+Routers
+TCP/UDP
+ARP
+FTP, TFTP, SMTP
+HTTP/HTTPS
+DNS, DHCP
+
+ping
+
+

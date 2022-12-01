@@ -1,0 +1,13 @@
+Footprinting
+Scanning and Enumeration :- nmap
+System hacking :- backdoor
+Malware :- trojans, worms, viruses
+Sniffing :- wireshark
+Social Engineering(attacking people)
+Denial of service
+SQL XSS
+Wifi Hacking
+Mobile Hacking
+Cryptography
+ 
+
