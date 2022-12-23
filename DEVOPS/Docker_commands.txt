@@ -1,0 +1,33 @@
+1. docker run -it hello-world
+
+2. docker images
+
+3. docker ps 
+
+4. docker ps -a
+
+5. docker container
+
+6. docker container exec -it ubuntu
+
+7. docker rm ubuntu
+
+8. docker rmi ubuntu
+
+9. docker inspect ubuntu
+
+10. docker start ubuntu
+
+11. docker stop ubuntu
+
+12. docker logs ubuntu
+
+13. docker run -d alpine ping www.civo.com
+
+14. docker run ubutnu echo hey
+
+15. docker logs --since 5s ubuntu
+
+16. docker pull nginx
+
+17. docker run -d -p 1234:80 nginx
