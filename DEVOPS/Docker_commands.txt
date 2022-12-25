@@ -8,7 +8,7 @@
 
 5. docker container
 
-6. docker container exec -it ubuntu
+6. docker container exec -it ubuntu bash
 
 7. docker rm ubuntu
 
@@ -31,3 +31,15 @@
 16. docker pull nginx
 
 17. docker run -d -p 1234:80 nginx
+
+18. docket commit -m "added sample.txt file" <container id> <container_name>:<version/tag>
+
+19. docker images-q
+
+20. docker rmi $(docker images -q) -f
+
+21. docker prune -f
+
+22. docker build -t myimage .
+
+23. 
