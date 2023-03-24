@@ -32,7 +32,7 @@
 
 17. docker run -d -p 1234:80 nginx
 
-18. docket commit -m "added sample.txt file" <container id> <container_name>:<version/tag>
+18. docker commit -m "added sample.txt file" <container id> <container_name>:<version/tag>
 
 19. docker images-q
 
@@ -40,6 +40,4 @@
 
 21. docker prune -f
 
-22. docker build -t myimage .
-
-23. 
+22. docker build -t myimage
